@@ -12,14 +12,16 @@ Permite cargar archivos `.PO` y `.POT`, traducir cadenas, gestionar una memoria 
 ## ✨ Características
 
 - 🌐 Traducción de archivos `.PO` y `.POT`.
-- 🧩 Generación de archivos `.POT` para proyectos de WordPress.
+- 🧩 Generación y extracción de archivos `.POT` para proyectos de WordPress.
 - 💾 Memoria de traducción gestionada desde el navegador.
 - 🔄 Intercambio rápido entre idioma de origen y destino.
+- 🔍 Detección automática del idioma de origen.
 - 🤖 Diferentes motores de traducción gratuitos sin API Key.
 - ⏱️ Configuración del retraso entre solicitudes para reducir problemas de rate limiting.
 - 📊 Resumen del archivo con cadenas totales, traducidas, pendientes y advertencias.
+- 📥 Procesamiento y descarga de los archivos resultantes desde el navegador.
 - 🌓 Modo claro y oscuro.
-- 📱 Interfaz adaptable para escritorio y dispositivos móviles.
+- 📱 Interfaz adaptable para escritorio y dispositivos móviles, con navegación optimizada para pantallas pequeñas.
 - 🖱️ Carga de archivos mediante selección o arrastrar y soltar.
 - 🔒 Procesamiento orientado al navegador, sin backend propio.
 
@@ -55,6 +57,14 @@ No requiere instalación ni configuración de un servidor PHP, Node.js u otro ba
 5. Configura los idiomas y el motor de traducción.
 6. Procesa y descarga el resultado desde la propia aplicación.
 
+### 📝 Traductor .PO
+
+Permite seleccionar el idioma de origen o detectarlo automáticamente, elegir el idioma de destino, utilizar uno de los motores disponibles y controlar el retraso entre solicitudes para reducir problemas de rate limiting.
+
+### 🪄 Generador .POT
+
+Permite trabajar con la generación y extracción de archivos `.POT` desde la propia aplicación, sin depender de un backend propio.
+
 ## 🛠️ Tecnologías
 
 - HTML5
@@ -65,7 +75,9 @@ No requiere instalación ni configuración de un servidor PHP, Node.js u otro ba
 
 ## ⚠️ Consideraciones
 
-WP-Translator-Suite depende de servicios externos para determinadas funciones de traducción. Un cambio, límite, bloqueo o caída de uno de estos servicios puede afectar al funcionamiento del motor correspondiente.
+WP-Translator-Suite se ejecuta principalmente en el navegador y no requiere un backend propio, pero algunas funciones dependen de servicios externos. Un cambio, límite, bloqueo o caída de uno de estos servicios puede afectar al funcionamiento del motor correspondiente.
+
+La interfaz también utiliza recursos externos mediante CDN para determinadas librerías del proyecto.
 
 Antes de procesar archivos importantes, se recomienda conservar una copia del archivo original.
 
