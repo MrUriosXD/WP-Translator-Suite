@@ -1,5 +1,10 @@
 # WP-Translator-Suite
 
+![HTML5](https://img.shields.io/badge/HTML5-Static-E34F26?style=flat-square&logo=html5&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.x-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white)
+![Font Awesome](https://img.shields.io/badge/Font_Awesome-6.x-528DD7?style=flat-square&logo=fontawesome&logoColor=white)
+
 Herramienta web **single-page** para trabajar con la localización de temas y plugins de WordPress directamente desde el navegador.
 
 Permite cargar archivos `.PO` y `.POT`, traducir cadenas, gestionar una memoria de traducción y generar archivos `.POT`, sin necesidad de instalar software ni dependencias en el servidor.
