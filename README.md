@@ -9,10 +9,7 @@ Herramienta web **single-page** para trabajar con la localización de temas y pl
 
 Permite cargar archivos `.PO` y `.POT`, traducir cadenas, gestionar una memoria de traducción y generar archivos `.POT`, sin necesidad de instalar software ni dependencias en el servidor.
 
-![Estructura del repositorio](assets/repository-structure.svg)
-
-<details>
-<summary>✨ Características</summary>
+## ✨ Características
 
 - 🌐 Traducción de archivos `.PO` y `.POT`.
 - 🧩 Generación y extracción de archivos `.POT` para proyectos de WordPress.
@@ -28,10 +25,7 @@ Permite cargar archivos `.PO` y `.POT`, traducir cadenas, gestionar una memoria 
 - 🖱️ Carga de archivos mediante selección o arrastrar y soltar.
 - 🔒 Procesamiento orientado al navegador, sin backend propio.
 
-</details>
-
-<details>
-<summary>🌍 Motores de traducción</summary>
+## 🌍 Motores de traducción
 
 Actualmente incluye opciones gratuitas que no requieren una API Key:
 
@@ -42,25 +36,17 @@ Actualmente incluye opciones gratuitas que no requieren una API Key:
 
 > La disponibilidad y las limitaciones de los servicios externos pueden variar con el tiempo.
 
-</details>
-
-<details>
-<summary>📁 Estructura</summary>
+## 📁 Estructura
 
 ```text
 wp-translator-suite/
-├── assets/
-│   └── repository-structure.svg
-├── index.html
-└── README.md
+├── index.html    # Aplicación web completa
+└── README.md     # Documentación del proyecto
 ```
 
 La aplicación está contenida en `index.html`, incluyendo la interfaz, estilos y lógica necesaria para su funcionamiento.
 
-</details>
-
-<details>
-<summary>🚀 Uso</summary>
+## 🚀 Uso
 
 No requiere instalación ni configuración de un servidor PHP, Node.js u otro backend.
 
@@ -71,18 +57,7 @@ No requiere instalación ni configuración de un servidor PHP, Node.js u otro ba
 5. Configura los idiomas y el motor de traducción.
 6. Procesa y descarga el resultado desde la propia aplicación.
 
-### 📝 Traductor .PO
-
-Permite seleccionar el idioma de origen o detectarlo automáticamente, elegir el idioma de destino, utilizar uno de los motores disponibles y controlar el retraso entre solicitudes para reducir problemas de rate limiting.
-
-### 🪄 Generador .POT
-
-Permite trabajar con la generación y extracción de archivos `.POT` desde la propia aplicación, sin depender de un backend propio.
-
-</details>
-
-<details>
-<summary>🛠️ Tecnologías</summary>
+## 🛠️ Tecnologías
 
 - HTML5
 - JavaScript
@@ -90,10 +65,7 @@ Permite trabajar con la generación y extracción de archivos `.POT` desde la pr
 - Font Awesome
 - APIs/servicios de traducción externos según el motor seleccionado
 
-</details>
-
-<details>
-<summary>⚠️ Consideraciones</summary>
+## ⚠️ Consideraciones
 
 WP-Translator-Suite se ejecuta principalmente en el navegador y no requiere un backend propio, pero algunas funciones dependen de servicios externos. Un cambio, límite, bloqueo o caída de uno de estos servicios puede afectar al funcionamiento del motor correspondiente.
 
@@ -101,14 +73,9 @@ La interfaz también utiliza recursos externos mediante CDN para determinadas li
 
 Antes de procesar archivos importantes, se recomienda conservar una copia del archivo original.
 
-</details>
-
-<details>
-<summary>📄 Licencia</summary>
+## 📄 Licencia
 
 Consulta los archivos y avisos incluidos en el repositorio para conocer las condiciones de uso del proyecto.
-
-</details>
 
 ---
 
